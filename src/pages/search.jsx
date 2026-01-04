@@ -5,7 +5,7 @@ import NewsCard from "../components/NewsCard";
 export default function search() {
   const [query, setQuery] = useState("");
   const [articles, setArticles] = useState([]); 
- const API_KEY = "d6393ac091b34167bcbce5d901fa2eaa";
+ const API_KEY = "api_key";
 
 
   const handleSearch = async () => {

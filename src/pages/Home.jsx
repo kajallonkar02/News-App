@@ -4,7 +4,7 @@ import NewsCard from "../components/NewsCard";
 
 export default function Home() {
   const [articles, setArticles] = useState([]);
-  const API_KEY = "d6393ac091b34167bcbce5d901fa2eaa"; // Replace with your NewsAPI.org key
+  const API_KEY = "api_key"; // Replace with your NewsAPI.org key
 
   useEffect(() => {
     const fetchNews = async () => {
